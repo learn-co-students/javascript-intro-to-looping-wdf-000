@@ -24,4 +24,11 @@ function doWhileLoop(array) {
     array.pop();
   } while (maybeTrue());
   return array;
+
+  // Solution:
+  
+  // do {
+  //   array = array.slice(1)
+  // } while (array.length > 0 && maybeTrue())
+  // return array
 }
